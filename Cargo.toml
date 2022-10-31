@@ -1,0 +1,22 @@
+[package]
+name = "twitch_recover_cli"
+version = "0.1.0"
+edition = "2021"
+authors = ["Mageas <dev@mageas.net>"]
+description = "Recover a twitch vod in cli"
+documentation = "https://docs.rs/twitch_recover_cli"
+keywords = ["twitch"]
+license = "GPL-3.0"
+repository = "https://gitea.heartnerds.org/Mageas/twitch_recover_cli"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+twitch_recover = "0.2"
+anyhow = "1.0.66"
+chrono = "0.4.22"
+tokio = { version = "1.21", features = ["full"] }
+clap = { version = "4.0", features = ["derive"] }
+
+# [dependencies.twitch_recover]
+# path = "../twitch_recover"
