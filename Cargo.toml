@@ -4,7 +4,6 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Mageas <dev@mageas.net>"]
 description = "Recover a twitch vod in cli"
-documentation = "https://docs.rs/twitch_recover_cli"
 keywords = ["twitch"]
 license = "GPL-3.0"
 repository = "https://gitea.heartnerds.org/Mageas/twitch_recover_cli"
