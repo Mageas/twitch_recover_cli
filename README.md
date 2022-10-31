@@ -35,5 +35,12 @@ Build the project with cargo:
 ```
 cargo build --release
 ```
-
 The binary is located in `./target/release/twitch_recover_cli`
+
+## **Install instructions**
+
+Install the project with cargo:
+```
+cargo install --path=.
+```
+
