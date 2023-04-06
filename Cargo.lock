@@ -1245,6 +1245,7 @@ dependencies = [
  "anyhow",
  "chrono",
  "clap",
+ "reqwest",
  "tokio",
  "twitch_recover",
 ]
